@@ -1,5 +1,11 @@
 # log-analyser
 
+## Set-up instructions (WSL)
+- `git clone` the repository to local remote
+- run `python3 main.py` in src directory
+![image](https://user-images.githubusercontent.com/43771723/134793155-b5053ff9-4f3d-4b54-8914-301e5a70c68a.png)
+- .csv file will be output in outputs directory in `/outputs/` directory, TADA!
+
 ## FIX 4.4
 - Stock Code - 55
 - Transaction Quantity - 14
