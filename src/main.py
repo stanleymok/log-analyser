@@ -6,7 +6,7 @@ CWD = os.getcwd()
 PATH_TO_INPUTS = "/../inputs/"
 PATH_TO_OUTPUTS="/../outputs/"
 FILE_NAME="FIX.09-Jan-2018.log"
-OUT_FILE_NAME=FILE_NAME[:-4] + ".out"
+OUT_FILE_NAME=FILE_NAME[:-4] + ".csv"
 DICT = {"55": "STOCK CODE",
         "14": "TRANS QTY",
         "6": "TRANS PX",
