@@ -34,6 +34,9 @@ I would proceed by having a rough look at the CSV/logs to see if anything looks 
 Investigation Results:
 The system always sends a buy order for 0 shares at 0 dollars before it starts transactions, wasting 1 to 3 seconds in transaction time, 
 which is precious in the finance world.
+How i would proceed with debugging:
+- I would look for the part in the backend of the code that logs that line of FIX logs
+- Look for any additional logs (if any) and check for debug codes or anything that would help with debugging
 ```
 
 ### References:
